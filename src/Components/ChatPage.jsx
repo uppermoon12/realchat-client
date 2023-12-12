@@ -23,7 +23,10 @@ export default function ChatPage() {
                                 Nav
                             </button>
                         </div>
-                        <div className="w-1/2 max-w-1/2 h-full border border-orange-600 rounded-2xl"></div>
+                        <div className="w-1/2 max-w-1/2 h-full border border-orange-600 rounded-2xl flex">
+                            <div className="h-full w-1/2 border border-red-600 rounded-2xl"></div>
+                            <div className="h-full w-1/2 border border-red-600 rounded-2xl"></div>
+                        </div>
                     </div>
                     <div className="w-full border border-yellow-600 rounded-2xl h-[800px] md:h-[455px] flex flex-col justify-between">
                         <div className="w-full bg-zinc-500 h-5/6 rounded-2xl"></div>
